@@ -32,6 +32,7 @@ Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 Plug 'tpope/vim-surround'
 Plug 'ThePrimeagen/vim-be-good'
+Plug 'sindrets/diffview.nvim'
 
 set encoding=UTF-8
 
@@ -82,3 +83,6 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
