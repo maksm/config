@@ -161,4 +161,6 @@ return {
       }, { prefix = "<leader>" })
     end,
   },
+  {"christoomey/vim-tmux-navigator"},
+  {"ThePrimeagen/vim-be-good"},
 }
